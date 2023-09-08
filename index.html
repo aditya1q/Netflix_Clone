@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
+    <script src="https://cdn.tailwindcss.com/3.3.0"></script>
+</head>
+
+<body>
+    <div class="root" id="root">
+        <nav class="nav">
+            <img class="logo" src="img/netflix.png" alt="">
+            <div class="cont">
+                <select name="" id="">
+                    <option value="">English</option>
+                    <option value="">Hindi</option>
+                </select>
+                <div class="login">
+                    <a href="login.html">
+                        <button class="SignIn">Sign In</button>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="about h-[120vh] sm:h-[100vh]">
+            <h1>Unlimited movies, TV shows and more.</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <h4>Ready to watch? Enter your email to create or restart your membership.</h4>
+            <div class="get flex relative lg:flex-row flex-col gap-10 lg:gap-0">
+                <input type="email" required placeholder="Email Address" class="lg:placeholder-transparent h-[70px] w-[400px] lg:w-[600px]">
+                <label for="" class="hidden lg:block">Email Address</label>
+                <button class="whitespace-nowrap ">Get Started ></button>
+            </div>
+        </div>
+    </div>
+    <div class="pt-10 pb-10 second flex items-center justify-center lg:flex-row flex-col gap-12">
+        <div class="dataEl text-center">
+            <h1 class="text-center w-full text-center">Enjoy on your TV.</h1>
+            <h3 class="text-center w-[80%] text-center">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple
+                TV, Blu-ray players, and more.</h3>
+        </div>
+        <div class="photos ">
+            <div class="pictureOne w-[400px] sm:w-[600px]">
+                <img class="videoTv w-full " src="img/tv.png" alt="">
+                <video class="video sm:w-[400px]" data-uia="our-story-card-video" autoplay="" playsinline="" muted="" loop="">
+                    <source
+                        src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
+                        type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <div class=" pt-10 pb-10 third flex items-center justify-center lg:flex-row flex-col gap-16">
+        <div class="phoneData">
+            <div class="phone">
+                <img src="img/phone.png" alt="">
+            </div>
+        </div>
+        <div class="phnData">
+            <h1 class="text-center w-full text-center">Download your shows to watch offline.</h1>
+            <h3 class="text-center w-[80%] text-center">Save your favorites easily and always have something
+                to watch.</h3>
+        </div>
+    </div>
+    <div class="pt-10 pb-10 second flex flex items-center justify-center lg:flex-row flex-col-reverse gap-16 ">
+        <div class="dataEl text-center">
+            <h1 class="text-center w-full text-center">Watch everywhere.</h1>
+            <h3 class="text-center w-[80%] text-center">Stream unlimited movies and TV shows on your phone,
+                tablet, laptop, and TV.</h3>
+        </div>
+        <div class="photos">
+            <div class="pictureTwo w-[450px] sm:w-[600px]">
+                <img class="secondImg" src="img/tv2.png" alt="">
+                <video class="card-video w-[250px] sm:w-[400px] " data-uia="our-story-card-video" autoplay="" playsinline="" muted="" loop="">
+                    <source
+                        src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"
+                        type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <div class="pt-10 pb-10 third flex items-center justify-center lg:flex-row flex-col gap-16">
+        <div class="child">
+            <div class="phone">
+                <img src="img/child.png" alt="">
+            </div>
+        </div>
+        <div class="phnData">
+            <h1 class="text-center w-full text-center">Download your shows to watch offline.</h1>
+            <h3 class="text-center w-[80%] text-center">Save your favorites easily and always have something
+                to watch.</h3>
+        </div>
+    </div>
+    <div class="question">
+        <h1 class="text-[2rem] md:text-[3.125rem]">Frequently Asked Questions</h1>
+        <div class="ques">
+        <h1 class="text-3xl font-bold mb-4">Netflix FAQ</h1>
+        <div class="ques">
+            <h2 class="lg:w-[800px] question">What is Netflix?</h2>
+            <div class="answer hidden">
+                <p class="w-[430px] text-lg text-center text-white mb-10 bg-[#303030] lg:w-[800px] question">Netflix is a streaming service that allows you to watch a wide variety of TV shows, movies, documentaries, and more on various internet-connected devices. You can enjoy unlimited content for a monthly subscription fee.</p>
+            </div>
+    
+            <h2 class="lg:w-[800px] question">How much does Netflix cost?</h2>
+            <div class="answer hidden">
+                <p class="w-[430px] text-lg text-center text-white mb-10 bg-[#303030] lg:w-[800px] question">Netflix offers different subscription plans with varying prices. The cost depends on your chosen plan, which may include options for streaming quality and the number of screens you can use simultaneously.</p>
+            </div>
+
+            <h2 class="lg:w-[800px] question">Where can I watch?</h2>
+            <div class="answer hidden">
+                <p class="w-[430px] text-lg text-center text-white mb-10 bg-[#303030] lg:w-[800px] question">You can watch Netflix on various devices, including smartphones, tablets, smart TVs, and computers. Netflix is available worldwide, and you can access it as long as you have an internet connection.</p>
+            </div>
+
+            <h2 class="lg:w-[800px] question">How do I cancel?</h2>
+            <div class="answer hidden">
+                <p class="w-[430px] text-lg text-center text-white mb-10 bg-[#303030] lg:w-[800px] question">To cancel your Netflix subscription, log in to your Netflix account, go to your Account settings, and select the option to cancel your subscription. Follow the on-screen instructions to complete the cancellation process.</p>
+            </div>
+
+            <h2 class="lg:w-[800px] question">What can I watch on Netflix?</h2>
+            <div class="answer hidden">
+                <p class="w-[430px] text-lg text-center text-white mb-10 bg-[#303030] lg:w-[800px] question">Netflix offers a vast library of content, including TV shows, movies, documentaries, and original programming. The selection varies by region, but you can find a wide range of genres and titles to choose from.</p>
+            </div>
+
+            <h2 class="lg:w-[800px] question">Is Netflix good for kids?</h2>
+            <div class="answer hidden">
+                <p class="w-[430px] text-lg text-center text-white mb-10 bg-[#303030] lg:w-[800px] question">Netflix provides a dedicated kids' section with age-appropriate content. Parents can set up parental controls to ensure a safe and suitable viewing experience for children.</p>
+            </div>
+        </div>
+    </div>
+        <div class="aboutnew">
+            <h4 class="text-center">Ready to watch? Enter your email to create or restart your membership.</h4>
+            <div class="inputData lg:flex-row flex-col gap-10 lg:gap-0">
+                <input type="email" placeholder="Email Address" class="w-[400px] h-[65px] lg:w-[600px]">
+                <button class="text-[20px] px-[40px] py-[15px] lg:text-[25px] whitespace-nowrap">Get Started ></button>
+            </div>
+        </div>
+        
+    </div>
+    <div class="last">
+        <p class="para text-center pb-12">Questions? Call 000-800-919-1694</p>
+        <div class="main grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 place-items-center gap-10">
+            <div class="first mt-10 md:mt-0 border-t md:border-none w-full flex items-center flex-col justify-center">
+                <p class="text-xs">FAQ</p>
+                <p class="text-xs">Investor Relations</p>
+                <p class="text-xs">privacy</p>
+                <p class="text-xs">Speed Test</p>
+            </div>
+            <div class="Sec1 border-t md:border-none w-full flex items-center flex-col justify-center">
+                <p class="text-xs">Help Centre</p>
+                <p class="text-xs">Jobs</p>
+                <p class="text-xs">Cookie preferences</p>
+                <p class="text-xs">Legal Notices</p>
+            </div>
+            <div class="third1 border-t md:border-none w-full flex items-center flex-col justify-center">
+                <p class="text-xs">Account</p>
+                <p class="text-xs">Ways to Watch</p>
+                <p class="text-xs">Corporate Information</p>
+                <p class="text-xs">Only on Netflix</p>
+            </div>
+            <div class="fourth1 hidden lg:block">
+                <p class="text-xs">Media Centre</p>
+                <p class="text-xs">Terms of Use</p>
+                <p class="text-xs">Contact Us</p>
+            </div>
+        </div>
+        <div class="language border-t md:border-none w-full mt-10 md:mt-0">
+            <select name="" id="">
+                <option value="">English</option>
+                <option value="">Hindi</option>
+            </select>
+        </div>
+        <h2>Netflix India</h2>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
